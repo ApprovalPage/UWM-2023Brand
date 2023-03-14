@@ -534,25 +534,25 @@ if (reversed == null) { reversed = false; }
 
 	// BKGD skew box
 	this.instance_5 = new lib.BKGDskewbox();
-	this.instance_5.setTransform(1588.8,125,1,1,0,0,0,613.8,0);
+	this.instance_5.setTransform(1168.8,125,1,1,0,0,0,613.8,0);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({x:1168.8},4,cjs.Ease.quadOut).wait(57).to({alpha:0},9).wait(6).to({x:1588.8,alpha:1},0).to({x:1168.8},4,cjs.Ease.quadOut).wait(52).to({alpha:0},9).wait(6).to({x:1588.8,alpha:1},0).to({x:1168.8},4,cjs.Ease.quadOut).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(187));
 
 	// PIC1 copy
 	this.instance_6 = new lib.PIC1();
-	this.instance_6.setTransform(970,125);
+	this.instance_6.setTransform(485,125);
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(142).to({_off:false},0).to({x:485,alpha:1},9,cjs.Ease.quadOut).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(142).to({_off:false},0).to({alpha:1},9).wait(36));
 
 	// PIC2
 	this.instance_7 = new lib.PIC2();
-	this.instance_7.setTransform(970,125);
+	this.instance_7.setTransform(485,125);
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(71).to({_off:false},0).to({x:485,alpha:1},9,cjs.Ease.quadOut).to({_off:true},71).wait(36));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(71).to({_off:false},0).to({alpha:1},9).to({_off:true},71).wait(36));
 
 	// PIC1
 	this.instance_8 = new lib.PIC1();
@@ -563,7 +563,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(484.5,124.5,1718.1999999999998,126);
+p.nominalBounds = new cjs.Rectangle(484.5,124.5,1298.2,126);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -573,7 +573,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_cardio_970x250_atlas_1.jpg?1678749138283", id:"UWM_cardio_970x250_atlas_1"}
+		{src:"images/UWM_cardio_970x250_atlas_1.jpg?1678812875680", id:"UWM_cardio_970x250_atlas_1"}
 	],
 	preloads: []
 };
