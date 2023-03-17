@@ -667,12 +667,12 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(246).to({_off:false},0).to({regY:0.1,scaleY:1.0092,y:61.1,alpha:1},23,cjs.Ease.quintOut).wait(15));
 
-	// vignette1
+	// vignette
 	this.instance_10 = new lib.vignette();
 	this.instance_10.setTransform(150,98);
 	this.instance_10.compositeOperation = "multiply";
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({alpha:0},118).to({alpha:0.6016},7).wait(11).to({alpha:0},101).to({_off:true},1).wait(46));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({alpha:0},66).wait(52).to({alpha:0.6016},7).wait(3).to({alpha:0},60).to({_off:true},1).wait(95));
 
 	// PIC2
 	this.instance_11 = new lib.PIC2();
@@ -712,7 +712,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_cardio_300x250_atlas_1.jpg?1679089942059", id:"UWM_cardio_300x250_atlas_1"}
+		{src:"images/UWM_cardio_300x250_atlas_1.jpg?1679090430117", id:"UWM_cardio_300x250_atlas_1"}
 	],
 	preloads: []
 };
