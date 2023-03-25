@@ -569,7 +569,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD2
 	this.instance_2 = new lib.HEAD2();
-	this.instance_2.setTransform(260,294);
+	this.instance_2.setTransform(260,296);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
@@ -577,21 +577,21 @@ if (reversed == null) { reversed = false; }
 
 	// underline2
 	this.instance_3 = new lib.underline1();
-	this.instance_3.setTransform(163,322,0.02,1,0,0,0,2.5,0);
+	this.instance_3.setTransform(163,324,0.02,1,0,0,0,2.5,0);
 	this.instance_3._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(142).to({_off:false},0).to({regX:0,scaleX:1.04,x:158},87,cjs.Ease.quadOut).to({scaleX:1,x:308,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(45));
 
 	// HEAD1
 	this.instance_4 = new lib.HEAD1();
-	this.instance_4.setTransform(260,294);
+	this.instance_4.setTransform(260,296);
 	this.instance_4.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:160,alpha:1},22,cjs.Ease.quintOut).wait(87).to({x:250,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(165));
 
 	// underline1
 	this.instance_5 = new lib.underline1();
-	this.instance_5.setTransform(159,322,0.02,1,0,0,0,2.5,0);
+	this.instance_5.setTransform(159,324,0.02,1,0,0,0,2.5,0);
 	this.instance_5._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(22).to({_off:false},0).to({regX:0,scaleX:1},87,cjs.Ease.quadOut).to({x:249,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(165));
@@ -604,7 +604,7 @@ if (reversed == null) { reversed = false; }
 
 	// CTA
 	this.instance_7 = new lib.CTA();
-	this.instance_7.setTransform(260,292);
+	this.instance_7.setTransform(260,294);
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
@@ -669,7 +669,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_cardio_320x480_atlas_1.jpg?1679782918544", id:"UWM_cardio_320x480_atlas_1"}
+		{src:"images/UWM_cardio_320x480_atlas_1.jpg?1679785281632", id:"UWM_cardio_320x480_atlas_1"}
 	],
 	preloads: []
 };
