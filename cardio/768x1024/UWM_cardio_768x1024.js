@@ -669,7 +669,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_cardio_768x1024_atlas_1.jpg?1679930620917", id:"UWM_cardio_768x1024_atlas_1"}
+		{src:"images/UWM_cardio_768x1024_atlas_1.jpg", id:"UWM_cardio_768x1024_atlas_1"}
 	],
 	preloads: []
 };
