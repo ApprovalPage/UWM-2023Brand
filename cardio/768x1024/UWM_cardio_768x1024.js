@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"UWM_cardio_768x1024_atlas_1", frames: [[0,0,600,1200],[602,0,600,1200],[0,1202,662,234]]}
+		{name:"UWM_cardio_768x1024_atlas_1", frames: [[0,0,1536,2048],[1538,0,1536,2048],[0,2050,662,234]]}
 ];
 
 
@@ -27,14 +27,14 @@ lib.ssMetadata = [
 
 
 
-(lib.pic300x600cardiorehab = function() {
+(lib.pic768x1024cardiorehab = function() {
 	this.initialize(ss["UWM_cardio_768x1024_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.pic300x600cardioscreen = function() {
+(lib.pic768x1024cardioscreen = function() {
 	this.initialize(ss["UWM_cardio_768x1024_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -143,14 +143,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.pic300x600cardiorehab();
+	this.instance = new lib.pic768x1024cardiorehab();
 	this.instance.setTransform(-150,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(-150,0,300,600), null);
+}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(-150,0,768,1024), null);
 
 
 (lib.PIC1 = function(mode,startPosition,loop,reversed) {
@@ -165,14 +165,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.pic300x600cardioscreen();
-	this.instance.setTransform(-150,-40,0.5,0.5);
+	this.instance = new lib.pic768x1024cardioscreen();
+	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC1, new cjs.Rectangle(-150,-40,300,600), null);
+}).prototype = getMCSymbolPrototype(lib.PIC1, new cjs.Rectangle(0,0,768,1024), null);
 
 
 (lib.HEAD2 = function(mode,startPosition,loop,reversed) {
@@ -626,15 +626,15 @@ if (reversed == null) { reversed = false; }
 
 	// PIC2
 	this.instance_10 = new lib.PIC2();
-	this.instance_10.setTransform(383.95,-48,2.544,2.544);
+	this.instance_10.setTransform(150.1,0,1,1,0,0,0,0.1,0);
 	this.instance_10.alpha = 0;
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(119).to({_off:false},0).to({scaleX:2.56,scaleY:2.56,alpha:1},9).wait(156));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(119).to({_off:false},0).to({alpha:1},9).wait(156));
 
 	// PIC1
 	this.instance_11 = new lib.PIC1();
-	this.instance_11.setTransform(383.95,-128,2.56,2.56);
+	this.instance_11.setTransform(0.1,0);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({_off:true},129).wait(155));
 
@@ -659,7 +659,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-96.1,281.6,2790.5,1206.4);
+p.nominalBounds = new cjs.Rectangle(-96.1,384,2790.5,937.5999999999999);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -669,7 +669,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_cardio_768x1024_atlas_1.jpg", id:"UWM_cardio_768x1024_atlas_1"}
+		{src:"images/UWM_cardio_768x1024_atlas_1.jpg?1679932853557", id:"UWM_cardio_768x1024_atlas_1"}
 	],
 	preloads: []
 };
