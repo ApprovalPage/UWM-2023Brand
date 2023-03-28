@@ -572,7 +572,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_5 = new lib.HEADskewbox();
 	this.instance_5.setTransform(424.7,230,1.2228,1.2228);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({x:267.05},9,cjs.Ease.quadOut).wait(219).to({x:536.05},13,cjs.Ease.quadInOut).wait(43));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({x:210.05},9,cjs.Ease.quadOut).wait(219).to({x:536.05},13,cjs.Ease.quadInOut).wait(43));
 
 	// UWMed logo
 	this.instance_6 = new lib.UWMed_logo();
@@ -631,7 +631,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(186,160,1131.7,320);
+p.nominalBounds = new cjs.Rectangle(181.2,160,1136.5,320);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -641,7 +641,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_cardio_480x320_atlas_1.jpg?1680026711110", id:"UWM_cardio_480x320_atlas_1"}
+		{src:"images/UWM_cardio_480x320_atlas_1.jpg?1680032858618", id:"UWM_cardio_480x320_atlas_1"}
 	],
 	preloads: []
 };
