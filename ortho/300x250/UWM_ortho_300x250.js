@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"UWM_ortho_300x250_atlas_1", frames: [[0,0,600,500],[0,502,600,500],[0,1004,662,234]]}
+		{name:"UWM_ortho_300x250_atlas_1", frames: [[0,1202,600,500],[0,0,600,1200],[0,1704,662,234]]}
 ];
 
 
@@ -34,7 +34,7 @@ lib.ssMetadata = [
 
 
 
-(lib.pic300x250ortho2 = function() {
+(lib.pic300x600ortho2 = function() {
 	this.initialize(ss["UWM_ortho_300x250_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -142,14 +142,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.pic300x250ortho2();
+	this.instance = new lib.pic300x600ortho2();
 	this.instance.setTransform(-150,-125,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(-150,-125,300,250), null);
+}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(-150,-125,300,600), null);
 
 
 (lib.PIC1 = function(mode,startPosition,loop,reversed) {
@@ -650,7 +650,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-56,125,1168.7,349);
+p.nominalBounds = new cjs.Rectangle(-56,125,1168.7,475);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -660,7 +660,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_ortho_300x250_atlas_1.jpg?1680044227221", id:"UWM_ortho_300x250_atlas_1"}
+		{src:"images/UWM_ortho_300x250_atlas_1.jpg?1680122478269", id:"UWM_ortho_300x250_atlas_1"}
 	],
 	preloads: []
 };

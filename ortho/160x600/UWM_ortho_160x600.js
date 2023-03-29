@@ -537,10 +537,10 @@ if (reversed == null) { reversed = false; }
 
 	// underline2
 	this.instance_3 = new lib.underline1();
-	this.instance_3.setTransform(74.05,438,0.02,1,0,0,0,2.5,0);
+	this.instance_3.setTransform(47.05,438,0.02,1,0,0,0,2.5,0);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(142).to({_off:false},0).to({regX:0.7,scaleX:0.4436,x:74.3},87,cjs.Ease.quadOut).to({regX:0.1,x:222,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(45));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(142).to({_off:false},0).to({regX:1.9,scaleX:0.2419,x:47.45},87,cjs.Ease.quadOut).to({regX:0.2,x:191.05,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(45));
 
 	// HEAD1
 	this.instance_4 = new lib.HEAD1();
@@ -551,10 +551,10 @@ if (reversed == null) { reversed = false; }
 
 	// underline1
 	this.instance_5 = new lib.underline1();
-	this.instance_5.setTransform(73,448,0.02,1,0,0,0,2.5,0);
+	this.instance_5.setTransform(46.05,448,0.02,1,0,0,0,2.5,0);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(22).to({_off:false},0).to({regX:1,scaleX:0.4637,x:74.45},87,cjs.Ease.quadOut).to({regX:0.1,x:164,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(165));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(22).to({_off:false},0).to({regX:1.5,scaleX:0.2339,x:46.35},87,cjs.Ease.quadOut).to({regX:0.2,scaleX:0.1855,x:126.05,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(165));
 
 	// BKGD skew box
 	this.instance_6 = new lib.BKGDskewbox();
@@ -629,7 +629,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_ortho_160x600_atlas_1.jpg?1680043894386", id:"UWM_ortho_160x600_atlas_1"}
+		{src:"images/UWM_ortho_160x600_atlas_1.jpg?1680123159027", id:"UWM_ortho_160x600_atlas_1"}
 	],
 	preloads: []
 };

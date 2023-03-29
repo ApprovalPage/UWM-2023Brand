@@ -122,14 +122,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#32006E").ss(2,1,1).p("AzXAAMAmvAAA");
-	this.shape.setTransform(-22.8,0,0.8065,1);
+	this.shape.graphics.f().s("#32006E").ss(2,1,1).p("AvnAAIfPAA");
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.underline1, new cjs.Rectangle(-123.8,-1,202,2), null);
+}).prototype = getMCSymbolPrototype(lib.underline1, new cjs.Rectangle(-101,-1,202,2), null);
 
 
 (lib.Tween2 = function(mode,startPosition,loop,reversed) {
@@ -586,10 +585,10 @@ if (reversed == null) { reversed = false; }
 
 	// underline2
 	this.instance_3 = new lib.underline1();
-	this.instance_3.setTransform(431.2,675.55,0.048,2.4,0,0,0,3.1,0);
+	this.instance_3.setTransform(280.15,675.55,0.048,2.4,0,0,0,3.1,0);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(142).to({_off:false},0).to({regX:0,scaleX:2.3549,x:418.3},87,cjs.Ease.quadOut).to({scaleX:2.355,x:779.15,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(45));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(142).to({_off:false},0).to({regX:0.2,scaleX:1.47,x:280.3},87,cjs.Ease.quadOut).to({regX:0,x:629,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(45));
 
 	// HEAD1
 	this.instance_4 = new lib.HEAD1();
@@ -600,10 +599,10 @@ if (reversed == null) { reversed = false; }
 
 	// underline1
 	this.instance_5 = new lib.underline1();
-	this.instance_5.setTransform(421.6,675.55,0.048,2.4,0,0,0,3.1,0);
+	this.instance_5.setTransform(298.15,675.55,0.048,2.4,0,0,0,3.1,0);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(22).to({_off:false},0).to({regX:0,scaleX:2.4,x:421.55},87,cjs.Ease.quadOut).to({x:637.55,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(165));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(22).to({_off:false},0).to({regX:0.2,scaleX:1.6702,x:298.35},87,cjs.Ease.quadOut).to({regX:0,scaleX:1.67,x:509,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(165));
 
 	// BKGD skew box
 	this.instance_6 = new lib.BKGDskewbox();
@@ -693,7 +692,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_ortho_768x1024_atlas_1.jpg?1680045271898", id:"UWM_ortho_768x1024_atlas_1"}
+		{src:"images/UWM_ortho_768x1024_atlas_1.jpg?1680123130576", id:"UWM_ortho_768x1024_atlas_1"}
 	],
 	preloads: []
 };
