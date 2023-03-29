@@ -517,7 +517,7 @@ if (reversed == null) { reversed = false; }
 
 	// border
 	this.instance = new lib.border();
-	this.instance.setTransform(160,416.7,1.0669,1);
+	this.instance.setTransform(160,426.15,1.0669,0.8503);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(284));
 
@@ -537,10 +537,10 @@ if (reversed == null) { reversed = false; }
 
 	// underline2
 	this.instance_3 = new lib.underline1();
-	this.instance_3.setTransform(149.9,334,0.02,1,0,0,0,2.5,0);
+	this.instance_3.setTransform(116.05,334,0.02,1,0,0,0,2.5,0);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(142).to({_off:false},0).to({regX:0,scaleX:1.04,x:144.9},87,cjs.Ease.quadOut).to({scaleX:1,x:294.9,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(45));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(142).to({_off:false},0).to({regX:0.5,scaleX:0.698,x:116.35},87,cjs.Ease.quadOut).to({regX:0,scaleX:0.6982,x:262,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(45));
 
 	// HEAD1
 	this.instance_4 = new lib.HEAD1();
@@ -551,14 +551,14 @@ if (reversed == null) { reversed = false; }
 
 	// underline1
 	this.instance_5 = new lib.underline1();
-	this.instance_5.setTransform(152.05,334,0.02,1,0,0,0,2.5,0);
+	this.instance_5.setTransform(126.05,334,0.02,1,0,0,0,2.5,0);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(22).to({_off:false},0).to({regX:0,scaleX:1.124,x:152},87,cjs.Ease.quadOut).to({scaleX:1.1243,x:303,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(165));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(22).to({_off:false},0).to({regX:0.1,scaleX:0.8049,x:126.1},87,cjs.Ease.quadOut).to({regX:0,scaleX:0.7456,x:206,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(165));
 
 	// BKGD skew box
 	this.instance_6 = new lib.BKGDskewbox();
-	this.instance_6.setTransform(508.8,479,1,1,0,0,0,613.8,0);
+	this.instance_6.setTransform(508.8,497.75,1,1,0,0,0,613.8,0);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(284));
 
@@ -629,7 +629,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_ortho_320x480_atlas_1.jpg?1680044767041", id:"UWM_ortho_320x480_atlas_1"}
+		{src:"images/UWM_ortho_320x480_atlas_1.jpg?1680123953558", id:"UWM_ortho_320x480_atlas_1"}
 	],
 	preloads: []
 };
