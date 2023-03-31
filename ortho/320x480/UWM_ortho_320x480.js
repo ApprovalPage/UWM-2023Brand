@@ -529,7 +529,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD2
 	this.instance_2 = new lib.HEAD2();
-	this.instance_2.setTransform(154,306);
+	this.instance_2.setTransform(154,320);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
@@ -537,21 +537,21 @@ if (reversed == null) { reversed = false; }
 
 	// underline2
 	this.instance_3 = new lib.underline1();
-	this.instance_3.setTransform(116.05,334,0.02,1,0,0,0,2.5,0);
+	this.instance_3.setTransform(116.05,348,0.02,1,0,0,0,2.5,0);
 	this.instance_3._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(142).to({_off:false},0).to({regX:0.5,scaleX:0.698,x:116.35},87,cjs.Ease.quadOut).to({regX:0,scaleX:0.6982,x:262,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(45));
 
 	// HEAD1
 	this.instance_4 = new lib.HEAD1();
-	this.instance_4.setTransform(154,306);
+	this.instance_4.setTransform(154,320);
 	this.instance_4.alpha = 0;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).to({x:54,alpha:1},22,cjs.Ease.quintOut).wait(87).to({x:144,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(165));
 
 	// underline1
 	this.instance_5 = new lib.underline1();
-	this.instance_5.setTransform(126.05,334,0.02,1,0,0,0,2.5,0);
+	this.instance_5.setTransform(126.05,348,0.02,1,0,0,0,2.5,0);
 	this.instance_5._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(22).to({_off:false},0).to({regX:0.1,scaleX:0.8049,x:126.1},87,cjs.Ease.quadOut).to({regX:0,scaleX:0.7456,x:206,alpha:0},9,cjs.Ease.quintIn).to({_off:true},1).wait(165));
@@ -564,7 +564,7 @@ if (reversed == null) { reversed = false; }
 
 	// CTA
 	this.instance_7 = new lib.CTA();
-	this.instance_7.setTransform(260,294);
+	this.instance_7.setTransform(260,304);
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
@@ -629,7 +629,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_ortho_320x480_atlas_1.jpg?1680123953558", id:"UWM_ortho_320x480_atlas_1"}
+		{src:"images/UWM_ortho_320x480_atlas_1.jpg?1680299748741", id:"UWM_ortho_320x480_atlas_1"}
 	],
 	preloads: []
 };
