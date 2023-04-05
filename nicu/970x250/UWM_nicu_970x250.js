@@ -636,7 +636,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_nicu_970x250_atlas_1.jpg?1680210955682", id:"UWM_nicu_970x250_atlas_1"}
+		{src:"images/UWM_nicu_970x250_atlas_1.jpg?1680716547182", id:"UWM_nicu_970x250_atlas_1"}
 	],
 	preloads: []
 };

@@ -167,13 +167,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.pic1220x250nicu1();
-	this.instance.setTransform(-485,-131,0.5123,0.5123);
+	this.instance.setTransform(-610,-125,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC1, new cjs.Rectangle(-485,-131,1250,256.2), null);
+}).prototype = getMCSymbolPrototype(lib.PIC1, new cjs.Rectangle(-610,-125,1220,250), null);
 
 
 (lib.HEAD3 = function(mode,startPosition,loop,reversed) {
@@ -592,7 +592,7 @@ if (reversed == null) { reversed = false; }
 
 	// PIC1 copy
 	this.instance_9 = new lib.PIC1();
-	this.instance_9.setTransform(465,125);
+	this.instance_9.setTransform(610,125);
 	this.instance_9.alpha = 0;
 	this.instance_9._off = true;
 
@@ -608,7 +608,7 @@ if (reversed == null) { reversed = false; }
 
 	// PIC1
 	this.instance_11 = new lib.PIC1();
-	this.instance_11.setTransform(465,125);
+	this.instance_11.setTransform(610,125);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_11).to({_off:true},128).wait(156));
 
@@ -626,7 +626,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(579.4,119,1433.3000000000002,131.5);
+p.nominalBounds = new cjs.Rectangle(579.4,124.5,1433.3000000000002,126);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -636,7 +636,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_nicu_1200x250_atlas_1.jpg?1680298805027", id:"UWM_nicu_1200x250_atlas_1"}
+		{src:"images/UWM_nicu_1200x250_atlas_1.jpg?1680716522888", id:"UWM_nicu_1200x250_atlas_1"}
 	],
 	preloads: []
 };
