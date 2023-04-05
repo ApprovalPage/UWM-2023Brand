@@ -167,13 +167,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.pic1220x250ortho1();
-	this.instance.setTransform(-485,-125,0.5,0.5);
+	this.instance.setTransform(365,-125,0.5,0.5,0,0,180);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC1, new cjs.Rectangle(-485,-125,1220,250), null);
+}).prototype = getMCSymbolPrototype(lib.PIC1, new cjs.Rectangle(-855,-125,1220,250), null);
 
 
 (lib.HEAD3 = function(mode,startPosition,loop,reversed) {
@@ -590,7 +590,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(579.4,124.5,1433.3000000000002,126);
+p.nominalBounds = new cjs.Rectangle(210,124.5,1802.7,126);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -600,7 +600,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_ortho_1200x250_atlas_1.jpg?1680297687053", id:"UWM_ortho_1200x250_atlas_1"}
+		{src:"images/UWM_ortho_1200x250_atlas_1.jpg?1680720892126", id:"UWM_ortho_1200x250_atlas_1"}
 	],
 	preloads: []
 };
