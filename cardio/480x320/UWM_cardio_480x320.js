@@ -576,10 +576,10 @@ if (reversed == null) { reversed = false; }
 
 	// UWMed logo
 	this.instance_6 = new lib.UWMed_logo();
-	this.instance_6.setTransform(292.3,272.7,0.719,0.719,0,0,0,0.4,0.4);
+	this.instance_6.setTransform(292.3,272.7,0.6,0.6,0,0,0,0.4,0.4);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(232).to({_off:false},0).to({x:138.65},9,cjs.Ease.quartOut).wait(43));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(232).to({_off:false},0).to({x:138.6},9,cjs.Ease.quartOut).wait(43));
 
 	// BKGD skew box
 	this.instance_7 = new lib.BKGDskewbox();
@@ -641,7 +641,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_cardio_480x320_atlas_1.jpg?1680032858618", id:"UWM_cardio_480x320_atlas_1"}
+		{src:"images/UWM_cardio_480x320_atlas_1.jpg?1680650320638", id:"UWM_cardio_480x320_atlas_1"}
 	],
 	preloads: []
 };
