@@ -145,13 +145,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.pic970x250neuro02();
-	this.instance.setTransform(0,0,0.4608,0.4608);
+	this.instance.setTransform(480,0,0.4608,0.4608,0,0,180);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(0,0,894,230.4), null);
+}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(-414,0,894,230.4), null);
 
 
 (lib.PIC1 = function(mode,startPosition,loop,reversed) {
@@ -167,13 +167,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.pic970x250neuro01();
-	this.instance.setTransform(0,0,0.5,0.5);
+	this.instance.setTransform(481,0,0.5,0.5,0,0,180);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC1, new cjs.Rectangle(0,0,970,250), null);
+}).prototype = getMCSymbolPrototype(lib.PIC1, new cjs.Rectangle(-489,0,970,250), null);
 
 
 (lib.HEAD3 = function(mode,startPosition,loop,reversed) {
@@ -556,10 +556,10 @@ if (reversed == null) { reversed = false; }
 
 	// UWMed logo
 	this.instance_6 = new lib.UWMed_logo();
-	this.instance_6.setTransform(292.3,272.7,0.719,0.719,0,0,0,0.4,0.4);
+	this.instance_6.setTransform(292.3,272.7,0.6,0.6,0,0,0,0.4,0.4);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(232).to({_off:false},0).to({x:138.65},9,cjs.Ease.quartOut).wait(43));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(232).to({_off:false},0).to({regX:0.5,x:138.6,y:272.65},9,cjs.Ease.quartOut).wait(43));
 
 	// BKGD skew box
 	this.instance_7 = new lib.BKGDskewbox();
@@ -611,7 +611,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(181.2,160,1136.5,320);
+p.nominalBounds = new cjs.Rectangle(-249,160,1566.7,320);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -621,7 +621,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_neuro_480x320_atlas_1.jpg?1680562880013", id:"UWM_neuro_480x320_atlas_1"}
+		{src:"images/UWM_neuro_480x320_atlas_1.jpg?1680650329183", id:"UWM_neuro_480x320_atlas_1"}
 	],
 	preloads: []
 };

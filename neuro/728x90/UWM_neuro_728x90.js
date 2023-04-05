@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"UWM_neuro_728x90_atlas_1", frames: [[0,0,1456,180],[0,182,1456,180],[0,364,662,234]]}
+		{name:"UWM_neuro_728x90_atlas_1", frames: [[0,502,1456,180],[0,0,1940,500],[0,684,662,234]]}
 ];
 
 
@@ -34,7 +34,7 @@ lib.ssMetadata = [
 
 
 
-(lib.pic728x90neuro02 = function() {
+(lib.pic970x250neuro02 = function() {
 	this.initialize(ss["UWM_neuro_728x90_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -144,14 +144,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.pic728x90neuro02();
-	this.instance.setTransform(0,0,0.5,0.5);
+	this.instance = new lib.pic970x250neuro02();
+	this.instance.setTransform(0,-20,0.252,0.252);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(0,0,728,90), null);
+}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(0,-20,488.9,126), null);
 
 
 (lib.PIC1 = function(mode,startPosition,loop,reversed) {
@@ -600,7 +600,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(348,-115,1245.7,205.5);
+p.nominalBounds = new cjs.Rectangle(348,-115,1245.7,221);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -610,7 +610,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_neuro_728x90_atlas_1.jpg?1680562884867", id:"UWM_neuro_728x90_atlas_1"}
+		{src:"images/UWM_neuro_728x90_atlas_1.jpg?1680720548581", id:"UWM_neuro_728x90_atlas_1"}
 	],
 	preloads: []
 };

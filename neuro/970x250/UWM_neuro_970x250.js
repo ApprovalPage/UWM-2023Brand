@@ -620,7 +620,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_neuro_970x250_atlas_1.jpg?1680562894447", id:"UWM_neuro_970x250_atlas_1"}
+		{src:"images/UWM_neuro_970x250_atlas_1.jpg?1680720319861", id:"UWM_neuro_970x250_atlas_1"}
 	],
 	preloads: []
 };

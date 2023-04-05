@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"UWM_neuro_320x480_atlas_1", frames: [[0,0,600,1200],[602,0,600,1200],[0,1202,662,234]]}
+		{name:"UWM_neuro_320x480_atlas_1", frames: [[0,1202,600,500],[0,0,600,1200],[0,1704,662,234]]}
 ];
 
 
@@ -27,14 +27,14 @@ lib.ssMetadata = [
 
 
 
-(lib.pic300x600neuro01 = function() {
+(lib.pic300x250neuro02 = function() {
 	this.initialize(ss["UWM_neuro_320x480_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.pic300x600neuro02 = function() {
+(lib.pic300x600neuro01 = function() {
 	this.initialize(ss["UWM_neuro_320x480_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -143,14 +143,14 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.pic300x600neuro02();
-	this.instance.setTransform(-150,0,0.5,0.5);
+	this.instance = new lib.pic300x250neuro02();
+	this.instance.setTransform(-215,-4,0.65,0.65);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(-150,0,300,600), null);
+}).prototype = getMCSymbolPrototype(lib.PIC2, new cjs.Rectangle(-215,-4,390,325), null);
 
 
 (lib.PIC1 = function(mode,startPosition,loop,reversed) {
@@ -639,7 +639,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-176.9,240,1299.6000000000001,400);
+p.nominalBounds = new cjs.Rectangle(-176.9,235.8,1299.6000000000001,404.2);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -649,7 +649,7 @@ lib.properties = {
 	color: "#999999",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/UWM_neuro_320x480_atlas_1.jpg?1680562873954", id:"UWM_neuro_320x480_atlas_1"}
+		{src:"images/UWM_neuro_320x480_atlas_1.jpg?1680720739914", id:"UWM_neuro_320x480_atlas_1"}
 	],
 	preloads: []
 };
